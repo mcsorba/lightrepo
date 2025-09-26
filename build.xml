@@ -11,7 +11,7 @@
 	<target name="report" depends="coverage">
 		<jacoco:report>
 			<executiondata>
-				<file file="jacoco.exec" />
+				<file file="jacosome.exec" />
 			</executiondata>
 			<structure name="JaCoCo Example">
 				<classfiles>
